@@ -9,4 +9,49 @@ body {
   padding: 0;
 }
 
+header {
+  font-size: 1.25rem;
+  padding: 56px 0;
+}
+
 /* Add styles here! */
+h2 {
+  background: hsl(45deg, 100%, 50%);
+  border-bottom: 4px hsl(45deg, 100%, 40%) solid;
+  padding: 24px 32px;
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  border-top: 4px hsl(0deg, 0%, 40%) solid;
+  padding: 56px 0;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.card {
+  font-size: 1rem;
+  padding: 8px 16px 0 16px;
+  background-color: hsl(0deg, 0%, 100%);
+  border-bottom: 4px hsl(0deg, 0%, 40%) solid;
+}
+
+.max-width-wrapper {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.intro-chunk {
+  max-width: 400px;
+  padding: 0 16px;
+}
+
+.indented-heading {
+  width: fit-content;
+  margin-left: -40px;
+}
